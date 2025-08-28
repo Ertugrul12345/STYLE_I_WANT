@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Levercast — Turn raw ideas into polished posts in seconds</title>
+    <meta name="description" content="Levercast helps busy entrepreneurs turn raw ideas into polished, platform-ready content for LinkedIn and Twitter with one-click publishing and styled previews." />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Levercast — Turn raw ideas into polished posts in seconds" />
+    <meta property="og:description" content="Capture, format, and share your content ideas across platforms. Templates, styled previews, and one‑click publishing." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://levercast.app/" />
+    <meta property="og:image" content="assets/og-image.png" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Levercast — Turn raw ideas into polished posts in seconds" />
+    <meta name="twitter:description" content="Capture, format, and share your content ideas across platforms. Templates, styled previews, and one‑click publishing." />
+    <meta name="twitter:image" content="assets/og-image.png" />
+
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Levercast",
+        "applicationCategory": "ProductivityApplication",
+        "operatingSystem": "Web",
+        "description": "Capture, format, and share content ideas across social platforms with templates, styled previews, and one-click publishing.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "url": "https://levercast.app/"
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Announcement bar -->
+    <!-- optional announcement bar hidden by default -->
+    <div class="announcement hidden" role="status">
+      <span>Now accepting early access signups — free during beta</span>
+      <a href="#pricing" class="link">Get started</a>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+      <a href="#top" class="logo" aria-label="Levercast home">
+        <span class="logo-badge" aria-hidden="true">LC</span>
+        <span>Levercast</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#how">How it works</a></li>
+          <li><a href="#previews">Previews</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+      <a href="#pricing" class="btn btn-primary header-cta">Get started</a>
+    </header>
+
+    <!-- Hero -->
+    <main id="top" class="main">
+      <section class="hero" aria-label="Hero">
+        <div class="hero-content">
+          <div class="eyebrow">Save hours weekly on content ops</div>
+          <h1>Turn raw ideas into publish-ready posts for LinkedIn and X in seconds</h1>
+          <p class="subhead">Levercast lets busy founders capture thoughts, apply LLM‑powered templates, preview platform styles, and publish with one click via OAuth integrations.</p>
+          <div class="cta-buttons">
+            <a href="#pricing" class="btn btn-primary">Start free</a>
+            <a href="#previews" class="btn btn-secondary">See live previews</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true" id="previews">
+          <div class="wireframe">
+            <div class="wf-grid">
+              <div class="wf-idea">
+                <div class="wf-title">Idea</div>
+                <div class="wf-card">
+                  <div class="wf-line long"></div>
+                  <div class="wf-line"></div>
+                  <div class="wf-line medium"></div>
+                </div>
+              </div>
+              <div class="wf-preview">
+                <div class="wf-title">Preview</div>
+                <div class="wf-post"></div>
+                <div class="wf-post"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Trusted by -->
+      <section class="section trust">
+        <div class="trust-row">
+          <span class="label">Trusted by teams at</span>
+          <ul class="trust-logos">
+            <li>SaaSCo</li>
+            <li>GrowthLabs</li>
+            <li>LaunchPad</li>
+            <li>CreatorOS</li>
+            <li>ShipFast</li>
+            <li>StackWorks</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- How it works -->
+      <section id="how" class="section how">
+        <h2>From idea to publish in 3 steps</h2>
+        <div class="steps">
+          <div class="step">
+            <div class="step-icon">✍️</div>
+            <h3>Capture</h3>
+            <p>Drop in your raw text and optionally upload an image. No overthinking.</p>
+          </div>
+          <div class="step">
+            <div class="step-icon">🧠</div>
+            <h3>Format</h3>
+            <p>Pick a template and let the LLM craft platform‑specific versions with your voice.</p>
+          </div>
+          <div class="step">
+            <div class="step-icon">🚀</div>
+            <h3>Publish</h3>
+            <p>Preview the final look and post with a single click via OAuth integrations.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features -->
+      <section id="features" class="section features">
+        <h2>Everything you need to go from idea to published</h2>
+        <p class="section-subhead">Purpose‑built for founders and creators who value speed without sacrificing quality.</p>
+        <div class="grid">
+          <article class="card">
+            <div class="icon">🧩</div>
+            <h3>Conversion‑tuned templates</h3>
+            <p>Battle‑tested templates for LinkedIn and Twitter, optimized for clarity, scannability, and engagement.</p>
+          </article>
+          <article class="card">
+            <div class="icon">🎨</div>
+            <h3>Styled previews</h3>
+            <p>See exactly how your post will look with native‑style previews before you publish.</p>
+          </article>
+          <article class="card">
+            <div class="icon">🔗</div>
+            <h3>One‑click publishing</h3>
+            <p>Connect once with OAuth and publish directly to your accounts without copy‑paste.</p>
+          </article>
+          <article class="card">
+            <div class="icon">🖼️</div>
+            <h3>Image support</h3>
+            <p>Upload an image to auto‑format your post around it with clean spacing and captions.</p>
+          </article>
+          <article class="card">
+            <div class="icon">🗣️</div>
+            <h3>Brand voice</h3>
+            <p>Keep your tone consistent with lightweight style controls and reusable prompts.</p>
+          </article>
+          <article class="card">
+            <div class="icon">📅</div>
+            <h3>Scheduling (soon)</h3>
+            <p>Queue posts for optimal times and maintain a predictable publishing cadence.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Templates highlight -->
+      <section id="templates" class="section templates">
+        <h2>Templates that do the heavy lifting</h2>
+        <div class="template-grid">
+          <div class="template-item">
+            <h4>Founder Announcement</h4>
+            <p>Benefit‑first opener, proof, CTA. Built to feel authentic and concise.</p>
+          </div>
+          <div class="template-item">
+            <h4>Problem → Solution</h4>
+            <p>State the pain clearly, show the payoff, invite the next step.</p>
+          </div>
+          <div class="template-item">
+            <h4>Build in Public</h4>
+            <p>Share progress and learnings to drive engagement and trust.</p>
+          </div>
+          <div class="template-item">
+            <h4>Before/After Bridge</h4>
+            <p>Paint the transformation and bridge it with your product.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Integrations -->
+      <section id="integrations" class="section integrations">
+        <h2>Integrations that save time</h2>
+        <div class="logos">
+          <div class="logo-card">
+            <span class="logo">in</span>
+            <span class="name">LinkedIn</span>
+          </div>
+          <div class="logo-card">
+            <span class="logo">𝕏</span>
+            <span class="name">Twitter/X</span>
+          </div>
+          <div class="logo-card muted" aria-disabled="true">
+            <span class="logo">IG</span>
+            <span class="name">Instagram (soon)</span>
+          </div>
+          <div class="logo-card muted" aria-disabled="true">
+            <span class="logo">FB</span>
+            <span class="name">Facebook (soon)</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section class="section testimonials">
+        <h2>What entrepreneurs say</h2>
+        <div class="grid">
+          <figure class="testimonial">
+            <blockquote>“Levercast chops my writing time from 45 minutes to 7. The previews give me confidence to hit publish.”</blockquote>
+            <figcaption>
+              <span class="avatar small">AM</span>
+              <div>
+                <div class="name">Alex M.</div>
+                <div class="role">Founder, SaaS</div>
+              </div>
+            </figcaption>
+          </figure>
+          <figure class="testimonial">
+            <blockquote>“Templates are on point. It feels like cheating, but in a good way.”</blockquote>
+            <figcaption>
+              <span class="avatar small">RC</span>
+              <div>
+                <div class="name">Riya C.</div>
+                <div class="role">Consultant</div>
+              </div>
+            </figcaption>
+          </figure>
+          <figure class="testimonial">
+            <blockquote>“One‑click publishing is the killer feature. No more copy‑paste gymnastics.”</blockquote>
+            <figcaption>
+              <span class="avatar small">JT</span>
+              <div>
+                <div class="name">James T.</div>
+                <div class="role">Agency Owner</div>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- Pricing / CTA -->
+      <section id="pricing" class="section pricing">
+        <div class="pricing-card">
+          <div>
+            <h2>Free during beta</h2>
+            <p>We’re onboarding a limited number of founders. Join the waitlist to reserve your spot.</p>
+          </div>
+          <form class="cta-form cta-inline" novalidate>
+            <input type="email" name="email" placeholder="you@company.com" required />
+            <button class="btn btn-primary" type="submit">Get early access</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section id="faq" class="section faq">
+        <h2>Frequently asked questions</h2>
+        <div class="accordion">
+          <details>
+            <summary>Which platforms are supported?</summary>
+            <div class="answer">LinkedIn and Twitter to start. Instagram and Facebook are on our roadmap.</div>
+          </details>
+          <details>
+            <summary>How do templates work?</summary>
+            <div class="answer">Pick a template and provide your raw idea. Our LLM shapes it into a platform‑specific post, keeping your tone consistent.</div>
+          </details>
+          <details>
+            <summary>Can I publish directly?</summary>
+            <div class="answer">Yes. Connect your accounts once with OAuth and publish with a single click from Levercast.</div>
+          </details>
+          <details>
+            <summary>Is there a free plan?</summary>
+            <div class="answer">Yes. Early access is free during beta. We’ll share pricing before general availability.</div>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <!-- Sticky mobile CTA -->
+    <div class="sticky-cta">
+      <a href="#cta" class="btn btn-primary">Get early access</a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <a href="#top" class="logo">
+          <img src="assets/logo.svg" alt="Levercast" width="24" height="24" />
+          <span>Levercast</span>
+        </a>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="#features">Features</a>
+          <a href="#integrations">Integrations</a>
+          <a href="#faq">FAQ</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+        </nav>
+        <p class="copyright">© <span id="year"></span> Levercast. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Demo modal -->
+    <dialog id="demo-modal" class="modal" aria-label="Levercast demo">
+      <button class="modal-close" data-close-modal aria-label="Close">✕</button>
+      <div class="modal-body">
+        <div class="video-frame">
+          <iframe
+            id="demo-video"
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0"
+            title="Levercast demo"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </dialog>
+  </body>
+  </html>
+
+
